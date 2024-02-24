@@ -4,18 +4,16 @@ import { MdDeleteForever } from "react-icons/md"; // Importing icon from react-i
 import { FiCircle } from "react-icons/fi"; // Importing icon from react-icons/fi package
 import Practice from "./components/Practice";
 import Sachika from "./components/Sachika";
+import Sachin from "./components/Sachin";
 
 const App = () => {
 
   return (
     <div className="app-container">
 
-{/* jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb */}
-{/* jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb */}
+<h1>hgjgjhj</h1>
 
-<Practice></Practice>
-      <Practice></Practice>
-    <Sachika></Sachika>
+<Sachin></Sachin>
 
     </div>
   );
