@@ -5,8 +5,8 @@ import Code from './components/Code';
 function App() {
   return (
     <div className="App">
-     
-	 <Code></Code>
+     <Code message= 'naam hai mera pyara sa '></Code>
+     <Code message='Learn React Here'></Code>
    
    
     </div>
