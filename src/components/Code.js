@@ -2,9 +2,10 @@ import  './Jarvis.css';
 
 function Code()
 {
-	return (<p>
+	const message=" The best ai is jarvis"
+	return (<p className='Jarvis'>
 	
-	<h2 className='Jarvis'> the bes AI</h2>
+	<h2>{message}</h2>
 	<img src='ironman.jpg'/>
 	</p>);
 }
