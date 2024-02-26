@@ -1,9 +1,11 @@
+import  './Sachin.css';
 function Sachin()
-{
+{ 
 	return (<div>
 	
-	<h2>Sachin</h2>
-	<img src='image.jpg'></img>
+	<h2 className='Sachin'>Sachin</h2>
+	<img src="logo192.png"></img>
+	
 	</div>);
 }
 export default Sachin;

@@ -2,7 +2,7 @@ function VsjItem()
 {
 	return <p>
 	
-	<h2>VSJ Item</h2>
+	<h2>Practice</h2>
 	<img src='logo192.png'/>
 	</p>;
 }
