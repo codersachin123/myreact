@@ -1,14 +1,13 @@
-import logo from './logo.svg';
-import VsjItem from './components/Sachin';
-import Sachin from './components/Sachin';
+import './components/Jarvis.css';
 import Code from './components/Code';
+import CodeWraper from './components/CodeWrapper';
 function App() {
   return (
     <div className="App">
-     <Code message= 'naam hai mera pyara sa '></Code>
-     <Code message='Learn React Here'></Code>
-   
-   
+      <Code message='Component'></Code>
+      <CodeWraper> hello wtapper</CodeWraper>
+
+
     </div>
   )
 

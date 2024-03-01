@@ -1,15 +1,10 @@
 import './Jarvis.css';
-
-
+import CodeSubitem from './CodeSubitem';
 function Code(props) {
-	// const message = " The best ai is jarvis"
-	return (<p className='Jarvis'>
+	return <p className='Code'>
+<h1>{props.message}</h1>
+		<CodeSubitem message="Sub Item" ></CodeSubitem>
 
-		
-		<h2> {props.message} </h2>
-
-
-		<img src='ironman.jpg' />
-	</p>);
+	</p>
 }
 export default Code;
