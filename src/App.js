@@ -1,15 +1,14 @@
 import './components/Jarvis.css';
-import Code from './components/Code';
+import VsjForms from './components/VsjForms';
 import CodeWraper from './components/CodeWrapper';
 import SkCounter from './components/SkCounter';
 
-function App() 
-{
+function App() {
   return (
     <div className="App">
-      <SkCounter/>
-      
-      
+      <VsjForms></VsjForms>
+
+
 
 
     </div>
