@@ -12,7 +12,7 @@ const VsjForms = () => {
     return <form>
         <label>Amount</label>
         <input type="text" onChange={amountChangeHandler} />
-        <h1>{enteredamount}</h1>
+        <h1>{2*enteredamount}</h1>
     </form>
 }
 export default VsjForms;
