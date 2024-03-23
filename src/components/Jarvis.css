@@ -1,8 +1,7 @@
-.Jarvis
- {
-color: brown;
-background-color: gold;
-border-color: black;
-border-width: 10px;
-border-style: ridge;
+.Jarvis {
+    color: blue;
+    background-color: brown;
+    border-color: black;
+    border-style: ridge;
 }
+

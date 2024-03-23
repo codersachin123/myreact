@@ -1,12 +1,14 @@
-import './components/Jarvis.css';
-import VsjForms from './components/VsjForms';
-import CodeWraper from './components/CodeWrapper';
-import SkCounter from './components/SkCounter';
+import TestResult from "./components/TestResult";
+
 
 function App() {
   return (
     <div className="App">
-      <VsjForms></VsjForms>
+      
+      <h1>TestResult</h1>
+  <TestResult></TestResult>
+      
+
 
 
 
