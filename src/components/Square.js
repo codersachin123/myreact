@@ -2,6 +2,7 @@ import React, { useState } from "react";
 const Square = () => {
    const [side, setSideA] = useState(0);
 
+   
    const n1ChangeHandler = (event) => {
       console.log("n1 Changed");
       console.log(event.target.value)

@@ -11,6 +11,7 @@ const Rectangle = () => {
     }
     const n2ChangeHander = (event) => {
         console.log("N2 Changed");
+        
         console.log(event.target.value);
         ssetBreadth(Number(event.target.value));
     }
