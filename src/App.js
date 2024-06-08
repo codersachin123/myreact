@@ -1,9 +1,9 @@
-import WeatherInfo from "./components/WeatherInfo";
+import Status from "./components/Status";
 function App() {
     return (
 <div className="App">
-    <h1>Weather</h1>
-    <WeatherInfo></WeatherInfo>
+    <h1>Status</h1>
+    <Status></Status>
     </div>
     )
 }
