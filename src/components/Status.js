@@ -1,12 +1,21 @@
 import React, { useState } from 'react';
+function getData() {
+
+  console.log("Clicked");
+  alert();
+  }
+
 const Status = () => {
+  
 
   return (
-    <button> press</button>
+    <div>
+      <button onClick={() => getData()}>Press</button>
+    
+    </div>
   );
-}
-
-
+};
 
 
 export default Status;
+
