@@ -5,7 +5,7 @@ const Status = () => {
   const [error, setError] = useState('');
 
   const fetchStatus = async () => {
-    const url = `http://127.0.0.1:1213/?a=9&b=90`;
+    const url = `http://127.0.0.1:1213/status`;
     console.log(url);
     try {
       const response = await fetch(url);

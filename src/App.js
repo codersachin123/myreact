@@ -1,9 +1,9 @@
-import Status from "./components/Status";
+import Info from "./components/Info";
 function App() {
     return (
 <div className="App">
-    <h1>Status</h1>
-    <Status></Status>
+    <h1>Info</h1>
+    <Info></Info>
     </div>
     )
 }
