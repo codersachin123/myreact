@@ -1,9 +1,9 @@
-import Info from "./components/Info";
+import Subtraction from "./components/subtraction";
 function App() {
     return (
 <div className="App">
-    <h1>Info</h1>
-    <Info></Info>
+    <h1>Subtraction</h1>
+    <Subtraction></Subtraction>
     </div>
     )
 }
