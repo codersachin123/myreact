@@ -8,7 +8,8 @@ const Subtraction = () => {
     const [result, setResult] = useState(null);
     const fetchTransfer = async (event) => {
         event.preventDefault(); 
-        const url = `http://127.0.0.1:1213/?A=${A}&B=${B}`; 
+        const url = `http://127.0.0.1:1213
+        /?A=${A}&B=${B}`; 
         console.log(url);
         setLoading(true); 
         try {
