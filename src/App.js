@@ -1,10 +1,10 @@
-import Books from "./components/books";
+import Geone from "./components/geone";
 function App() {
     return (
-<div className="App">
-    <h1>Books</h1>
-    <Books></Books>
-    </div>
+        <div className="App">
+            <Geone></Geone>
+        </div>
     )
 }
+
 export default App;
