@@ -1,8 +1,8 @@
-import Geone from "./components/geone";
+import Member from "./components/member";
 function App() {
     return (
         <div className="App">
-            <Geone></Geone>
+            <Member></Member>
         </div>
     )
 }

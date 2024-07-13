@@ -7,13 +7,19 @@ function Member() {
     const [work, setWork] = useState('');
     const [error, setError] = useState('');
     const [statusData, setStatusData] = useState(null);
+    const [operation, setOperation] = useState('insert'); 
 
     const handleSubmit = async (e) => {
         e.preventDefault();
         console.log(id, name, place, work);
 
         const fetchStatus = async () => {
-            const url = `http://localhost:3000/insert?id=${id}&name=${name}&place=${place}&work=${work}`;
+            let url;
+            if (operation === 'delete') {
+                url = `http://localhost:3000/delete?id=${id}`;
+            } else {
+                url = `http://localhost:3000/${operation}?id=${id}&name=${name}&place=${place}&work=${work}`;
+            }
             console.log(url);
 
             try {
@@ -52,10 +58,38 @@ function Member() {
                 </h4>
                 <button>Submit</button>
             </form>
-            {error && <p style={{color: 'red'}}>{error}</p>}
-            {statusData && <p style={{color: 'green'}}>Submission successful!</p>}
+            <div>
+                <label>
+                    <input 
+                        type="radio" 
+                        value="insert"
+                        checked={operation === 'insert'} 
+                        onChange={() => setOperation('insert')} 
+                    /> Insert
+                </label>
+                <label>
+                    <input 
+                        type="radio" 
+                        value="update"
+                        checked={operation === 'update'} 
+                        onChange={() => setOperation('update')} 
+                    /> Update
+                </label>
+                <label>
+                    <input 
+                        type="radio" 
+                        value="delete"
+                        checked={operation === 'delete'} 
+                        onChange={() => setOperation('delete')} 
+                    /> Delete
+                </label>
+            </div>
+            {error && <p style={{ color: 'red' }}>{error}</p>}
+            {statusData && <p style={{ color: 'green' }}>Submission successful!</p>}
         </div>
     );
 }
 
 export default Member;
+
+

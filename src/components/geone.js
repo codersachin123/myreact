@@ -45,8 +45,8 @@ function Geone() {
 
                 <button>Submit</button>
             </form>
-            {error && <p style={{color: 'red'}}>{error}</p>}
-            {statusData && <p style={{color: 'green'}}>Submission successful!</p>}
+            {error && <p style={{ color: 'red' }}>{error}</p>}
+            {statusData && <p style={{ color: 'green' }}>Submission successful!</p>}
         </div>
     );
 }
