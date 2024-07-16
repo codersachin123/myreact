@@ -1,8 +1,8 @@
-import Member from "./components/member";
+import Result from "./components/Result";
 function App() {
     return (
         <div className="App">
-            <Member></Member>
+            <Result></Result>
         </div>
     )
 }
