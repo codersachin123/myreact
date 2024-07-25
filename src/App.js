@@ -1,10 +1,11 @@
-import Result from "./components/Result";
+import React from 'react';
+import Account from './components/account';
+
 function App() {
     return (
         <div className="App">
-            <Result></Result>
+            <Account />
         </div>
-    )
+    );
 }
-
 export default App;
