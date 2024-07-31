@@ -1,11 +1,12 @@
 import React from 'react';
-import Account from './components/account';
+import MovieTicket from './components/movieTicket';
 
 function App() {
-    return (
-        <div className="App">
-            <Account />
-        </div>
-    );
+  return (
+    <div className="App">
+      <MovieTicket />
+    </div>
+  );
 }
+
 export default App;
