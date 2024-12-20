@@ -1,10 +1,11 @@
 import React from 'react';
-import MovieTicket from './components/movieTicket';
+import Carousel from './components/carousel';
 
 function App() {
   return (
     <div className="App">
-      <MovieTicket />
+      <h1>My Carousel</h1>
+      <Carousel />
     </div>
   );
 }
